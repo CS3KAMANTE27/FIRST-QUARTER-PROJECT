@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+     <html>
+        <head>
+	     <title></title>
+
+        </head>
+	         <style> 
+			      body{    
+		              margin:0;
+				      padding: 0;
+				   } 
+				
+				  .navButton{
+				     padding: 10px;
+				     color: #000000;
+				     background-color: #f94449;
+				     float:right;
+				     font-size: 30px;
+				     list-style-type: none;
+				     border-left: 2px solid black;
+				  }
+				 
+				  nav{
+                     width: 100%;
+                     position: fixed;
+				     top: 0;
+				     left: 0;
+                     height: 100px;
+				     background: linear-gradient(90deg, rgba(255,255,255,1) 18%, rgba(236,251,45,1) 51%, rgba(245,33,9,1) 96%);
+				  }
+				 
+				  li:hover{
+				    background-color: brown;
+				    transform: scale(1.5);
+				    transition: 1.5s;
+				 }
+				 .webTitle {
+                    font-size: 50px;
+					text-align: center;
+	                color: #6a4a3a;
+                    margin: 0;
+				    padding: 10px;
+				    font-weight: bold;
+				    font-family: Brush Script MT, cursive;
+}
+				 .logo{
+                    height: 80px;
+                    float: left;
+				  }
+				 
+				   .cover{
+                     margin-top: 40px;
+				     height: 600px;
+                     width: 100%;
+			
+				  }
+				  .pic1{
+			         z-index: 1;
+                     position: center;
+				     width: 100%;
+				    margin-top: 5px%;
+				    height: 600px;
+				 
+				}
+				
+	
+				.top3 {
+                  font-family:Garamond, serif;
+				  font-style: oblique;
+				  font-size: 45px;
+			      background: linear-gradient(90deg, rgba(223,150,15,0.9501050420168067) 43%, rgba(66,48,14,0.9501050420168067) 100%);
+			      border-radius: 30px;
+                  padding-top: 10px;
+                  text-align: center;
+                  position: absolute;
+                  top: 130%;
+                  left: 36%;
+                  transition: filter 0.3s ease; 
+                }
+                .top3:hover {
+				  filter: grayscale(50%);
+			      transform: scale(1.5);
+			      transition: 1s;
+                }
+				
+				
+				
+			 	 .footer {
+			       background: linear-gradient(90deg, rgba(247,247,242,1) 17%, rgba(149,136,9,1) 53%, rgba(247,247,242,1) 91%);
+                   text-align: center;
+                   padding: 10px;
+                   transition: background-color 0.3s ease;
+                }
+				.text-footer {
+                  font-size: 16px;
+                }
+
+                .footer-link {
+                  color: #EFFD5F;
+                  text-decoration: none;
+                  transition: text-decoration 0.3s ease, color 0.3s ease;
+               }
+		       .foot1 {
+                 color: #EFFD5F;
+                 text-decoration: none;
+                 transition: text-decoration 0.3s ease, color 0.3s ease;
+               }
+		       .foot1:hover {
+                 text-decoration: underline;
+		       }
+		       .foot2 {
+                 color: #EFFD5F;
+                 text-decoration: none;
+                 transition: text-decoration 0.3s ease, color 0.3s ease;
+               }
+		       .foot2:hover {
+                  text-decoration: underline;
+		       }
+                .footer-link:hover {
+                  text-decoration: underline;
+               }
+				
+		</style>
+</html>
